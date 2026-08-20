@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-image: linear-gradient(to right top, #0001ff, #6b00b5, #6d0076, #580045, #390023, #3d0421, #40091f, #420f1d, #710826, #a10027, #d1001f, #fd0000);
+        }
+
+        body {
+            background-image: linear-gradient(to right top, #0001ff, #6b00b5, #6d0076, #580045, #390023, #3d0421, #40091f, #420f1d, #710826, #a10027, #d1001f, #fd0000);
+        }
+
+        a {
+            background-image: linear-gradient(to left bottom, #ffffff, #fff0ff, #ffdfe6, #ffd5b6, #ffd887, #fdd66b, #f9d54c, #f2d422, #f7be01, #fba800, #fd9100, #fd7800) !important;
+        }
+
+        a:hover {
+            color: aqua !important;
+        }
+
+        footer {
+            background-image: linear-gradient(to right top, #0001ff, #6b00b5, #6d0076, #580045, #390023, #3d0421, #40091f, #420f1d, #710826, #a10027, #d1001f, #fd0000);
+
+        }
+
+        main {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid d-flex flex-column" style="min-height: 100vh;">
+
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Projetos</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="mt-5 d-flex flex-column align-items-center">
+                <h1 style="color: darkred;">Aplicação Desenvolvidas com</h1>
+                <hr style="border-color: white; width: 100%;">
+                <p style="color: whitesmoke;font-family: 'Times New Roman', Times, serif; font-size: 20px; ">
+                    <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/html-5--v1.png"
+                        alt="html-5--v1" /> HTML5
+                    <img width="50" height="50" src="https://img.icons8.com/stickers/100/css3.png" alt="css3" /> CSS3
+                </p>
+                <br>
+                <di class="row">
+                    <div class="col d-flex flex-wrap gap-3 justify-content-center">
+
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/macacoskate.webp" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Projeto1</h5>
+                                <p class="card-text">
+
+                                </p>
+                                <a href="./projetos/projeto1/projeto1.html" class="btn btn-primary">Ir para projeto</a>
+                            </div>
+                        </div>
+
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/macacosorrindo.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Projeto1</h5>
+                                <p class="card-text">
+
+                                </p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/macacodorimndo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Projeto1</h5>
+                            <p class="card-text">
+
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+
+
+
+
+                    </div>
+
+    </div>
+    </di>
+    </section>
+    </main>
+
+    <footer class="mt-auto">
+   <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+
+
+
+        
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
